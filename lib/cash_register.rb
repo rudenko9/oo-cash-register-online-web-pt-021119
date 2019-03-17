@@ -34,8 +34,6 @@ end
 
   def items
   @item 
-    
   end 
-  
   
 end 
