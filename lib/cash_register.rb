@@ -19,7 +19,7 @@ class CashRegister
  
  def apply_discount
   if @discount != 0
-    a = @total * 20/100
+    a = @total * @discount/100
     @total = @total - a 
   "After the discount, the total comes to $#{@total}."
   
