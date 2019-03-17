@@ -12,7 +12,7 @@ class CashRegister
  def add_item(item,price, quantity = 1)
      @price = price 
        @total = @total + price * quantity
-        @item << (item + item[1]).split
+        @item << item +(item[1] + item[1])
          
  end
  
