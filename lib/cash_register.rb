@@ -1,5 +1,3 @@
-
-
 class CashRegister
   attr_accessor :total, :discount, :price, :item
   
@@ -14,7 +12,7 @@ class CashRegister
        @total = @total + price * quantity
         quantity.times do
           @item << item 
- end
+  end
  end 
  
  def apply_discount
