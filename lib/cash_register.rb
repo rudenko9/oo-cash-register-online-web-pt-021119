@@ -31,7 +31,7 @@ def void_last_transaction
   @total -= @price 
 end 
   def items
-  @item + @item[1]
+  @item + @item[1].split
     
   end 
   
